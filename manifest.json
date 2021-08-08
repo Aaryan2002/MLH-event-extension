@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "MLH events Extension",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://organize.mlh.io/participants/events/*",
+                "http://organize.mlh.io/participants/events/*"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
